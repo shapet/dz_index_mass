@@ -1,5 +1,5 @@
 a = float(input('Введите ваш вес: '))
 b = float(input('Введите ваш рост: '))
 b = (b / 100)
-c = (a / round(b**2))
+c = (a / float(b**2))
 print('Ваш индекс массы тела: ', int(c))
