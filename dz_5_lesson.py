@@ -1,5 +1,3 @@
-        # Практика
-
 a = int(input('Введите число : '))
 b = int(input('Введите число : '))
 c = int(input('Введите число : '))
@@ -9,7 +7,7 @@ if (a, b, c) == 0:
     print('Введены все нули')
 if a != 0 and b != 0 and c !=0:
     print('Нет нулевых значений!!!')
-z = a or b or c
+z = a or b or c or ''
 print(z)
 if a > (b + c):
     print(a - b - c)
