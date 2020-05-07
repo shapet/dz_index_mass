@@ -39,3 +39,16 @@ if a > 50 and  (b > a or c > a):0
 print("Вася")
 if a > 5 or (b == 7 and c == 7):      
     print('Петя')
+
+    # Калькулятор
+    
+name = input('Введите ваши ФИО: ')
+sex = input('Введите ваш пол: ')
+age = input('Введите ваш возраст: ')
+weigh = float(input('Введите ваш вес: '))
+heigh = float(input('Введите ваш рост: '))
+heigh = (heigh / 100)
+c = (weigh / float(heigh**2))
+print('Ваш индекс массы тела: ', int(c))
+index = ('10' + "=" * int((c)- 10)) + "|" + '=' * (50 - int(c)) +'50'
+print(index)

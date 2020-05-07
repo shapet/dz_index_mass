@@ -1,7 +1,10 @@
-a = float(input('Введите ваш вес: '))
-b = float(input('Введите ваш рост: '))
-b = (b / 100)
-c = (a / float(b**2))
+name = input('Введите ваши ФИО: ')
+sex = input('Введите ваш пол: ')
+age = input('Введите ваш возраст: ')
+weigh = float(input('Введите ваш вес: '))
+heigh = float(input('Введите ваш рост: '))
+heigh = (heigh / 100)
+c = (weigh / float(heigh**2))
 print('Ваш индекс массы тела: ', int(c))
-f = ('10' + "=" * int((c)- 10)) + "|" + '=' * (50 - int(c)) +'50'
-print(f)
+index = ('10' + "=" * int((c)- 10)) + "|" + '=' * (50 - int(c)) +'50'
+print(index)
